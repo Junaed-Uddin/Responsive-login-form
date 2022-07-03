@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+#login {
+  margin-top: 8em;
+  box-shadow: 5px 10px 10px #888888;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#sign-text {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.3em;
+}
+
+#random-text {
+  text-align: center;
+  color: rgba(195, 186, 186, 0.258);
+}
+
+#form-checkbox {
+  margin-left: 10px;
+}
+
+#forget-text {
+  float: right;
+  text-decoration: none;
+  color: red;
+  margin-right: 10px;
+}
+
+.round-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.fa-brands {
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  #submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #signup{
+    text-decoration: none;
+  }
+
+  .sign-up-text{
+    color: red;
+  }
