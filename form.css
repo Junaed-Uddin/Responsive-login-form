@@ -1,0 +1,40 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --gold-color: goldenrod;
+  --light-blue: aliceblue;
+  --white: white;
+  --violet: #8251cf;
+}
+
+body {
+  background-color: var(--light-blue);
+}
+
+.main-wrapper {
+  height: 100vh;
+  width: 100%;
+}
+
+.login-form {
+  /* min-width: 430px; */
+  background-color: var(--white);
+}
+
+.sign-in{
+    color: var(--violet);
+}
+
+.fa-brands {
+  font-size: 26px;
+  color: var(--gold-color);
+}
+
+/* media query  */
+@media screen and (max-width: 373px) {
+  .main-wrapper {
+    height: 100%;
+  }
+}
