@@ -23,8 +23,8 @@ body {
   background-color: var(--white);
 }
 
-.sign-in{
-    color: var(--violet);
+.sign-in {
+  color: var(--violet);
 }
 
 .fa-brands {
@@ -37,4 +37,9 @@ body {
   .main-wrapper {
     height: 100%;
   }
+
+  .form-center {
+    padding-left: 10px;
+  }
 }
+
